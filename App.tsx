@@ -1,6 +1,6 @@
 import React from 'react';
-import {} from 'react-native';
-import HomeStack from 'src/Navigation/HomeStack';
+// import {} from 'react-native';
+import {HomeStack} from './src/Navigation';
 
 const App = () => {
   return <HomeStack />;
