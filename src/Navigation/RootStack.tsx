@@ -5,9 +5,10 @@ import SplashScreen from '../Screen/SplashScreen';
 import LoginScreen from '../Screen/LoginScreen';
 import MapScreen from '../Screen/MapScreen';
 import FriendScreen from '../Screen/FriendScreen';
+import { RootStackParamList } from './types';
 
 const HomeStack = () => {
-  const Stack = createNativeStackNavigator();
+  const Stack = createNativeStackNavigator<RootStackParamList>();
 
   return (
     <NavigationContainer>
